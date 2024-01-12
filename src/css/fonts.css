@@ -1,0 +1,25 @@
+/* 
+  Snowball by Geronimo Font Studios
+    https://www.dafont.com/snowball.font
+*/
+@font-face {
+  font-family: Snowball;
+  src: url("/fonts/snowball/Snowball.ttf");
+}
+
+/* 
+Quicksand à by Andrew Paglinawan 
+    https://www.dafont.com/quicksand.font
+*/
+@font-face {
+  font-family: Quicksand-light;
+  src: url("/fonts/quicksand/Quicksand_Light.otf");
+}
+@font-face {
+  font-family: Quicksand-bold;
+  src: url("/fonts/quicksand/Quicksand_Bold.otf");
+}
+@font-face {
+  font-family: Quicksand-dash;
+  src: url("/fonts/quicksand/Quicksand_Dash.otf");
+}

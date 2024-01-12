@@ -1,0 +1,82 @@
+/* styles specific to the homepage */
+#title {
+  font-family: Snowball;
+  text-align: center;
+  font-size: 50px;
+  color: #a6cdff;
+  margin-bottom: 0px;
+}
+#title h1 {
+  margin-bottom: 0px;
+  letter-spacing: 0.03em;
+}
+
+#subtitle {
+  text-align: center;
+  margin-top: 0px;
+  color: #b0d3ff87;
+  font-size: 24px;
+  font-family: Quicksand-light;
+}
+
+#title-text {
+  background: linear-gradient(45deg, #a6cdff 30%, #d7bfff, #a6cdff 75%);
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: title-gradient 10s linear infinite;
+}
+
+@keyframes title-gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+#title-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 70vh;
+}
+.snow-icon {
+  font-size: 120px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  align-self: center;
+}
+#title {
+  align-self: center;
+}
+
+@media screen and (max-width: 740px) {
+  #title-text {
+    display: block;
+    height: auto;
+  }
+  #title {
+    font-size: 45px;
+    margin-top: -50px;
+  }
+  #snow-icon-2 {
+    display: none;
+  }
+}
+
+#attribution {
+  padding: 10px;
+  margin-top: 20vh;
+  color: #eef6ff80;
+}
+#attribution a {
+  color: #eef6ff80;
+  text-underline-offset: 2px;
+}
+#attribution p {
+  font-size: 12px;
+  text-align: center;
+}
