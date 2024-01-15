@@ -2,6 +2,8 @@
 
 Tundra Tech Talks (TTT) is the hand-crafted website for this Ithaca-based group of techies
 
+### https://mplawley.github.io/tundra-tech-talks
+
 ![website preview](https://github.com/mplawley/tundra-tech-talks/assets/1711126/5ba2e9a1-e926-467a-994a-eebb33b20072)
 
 ### Local development & building
